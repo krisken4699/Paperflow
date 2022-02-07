@@ -1,0 +1,167 @@
+
+
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar-button {
+  background-color: lightgray;
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  /* color of the tracking area */
+  border: transparents;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(200, 200, 200, 0.4);
+  /* color of the scroll thumb */
+  border-radius: 4px;
+  /* roundness of the scroll thumb */
+  border: 3px solid rgba(200, 200, 200, 0.4);
+  /* creates padding around scroll thumb */
+}
+
+Parallax {
+  position: absolute;
+}
+
+.link {
+  opacity: 1;
+  letter-spacing: 2.2px;
+  font-family: Metric-Regular;
+  font-size: 13px;
+  font-weight: 500;
+  color: #A29F9A;
+  text-transform: uppercase;
+}
+
+.link:hover {
+  color: #333;
+}
+
+.Poppins {
+  font-family: Poppins;
+}
+
+.Taviraj {
+  font-family: 'Taviraj', serif;
+}
+
+@media only screen and (max-width: 640px) {
+
+  p,
+  ul,
+  ol,
+  label,
+  li .a {
+    font-family: "Metric-Light";
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    color: #1C1D1D;
+    letter-spacing: 0.4px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-collapse {
+    display: none;
+  }
+
+  #options-menu {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #dropdown-menu {
+    display: none;
+  }
+
+  p,
+  ul,
+  ol,
+  li .a {
+    font-family: "Metric-Light";
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0.4px;
+    text-align: left;
+  }
+}
+
+img {
+  object-fit: cover;
+  object-position: center center;
+}
+
+button {
+  font-family: "Metric-Medium";
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0.4px;
+  text-align: left;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+.card{
+  width:31.333333333333vw;
+}
+
+* {
+  outline: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  color: "#333";
+  user-drag: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h3 {
+  font-family: 'Metric-Medium';
+  font-size: 30px;
+  font-style: bold;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0em;
+}
+
+input {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

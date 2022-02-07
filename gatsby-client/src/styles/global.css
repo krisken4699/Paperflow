@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @responsive {
+      .box-small {
+        width: 50vmin;
+        height: 35vmin;
+      }
+  
+      .w-30rem {
+        width: 30rem;
+      }
+  
+      .mt-1\/10 {
+        margin-top: 10vh;
+      }
+  
+      .mt-2\/10 {
+        margin-top: 20vh;
+      }
+  
+      .mt-3\/10 {
+        margin-top: 30vh;
+      }
+  
+      .mt-4\/10 {
+        margin-top: 40vh;
+      }
+  
+      .mt-5\/10 {
+        margin-top: 50vh;
+      }
+  
+      .mt-6\/10 {
+        margin-top: 60vh;
+      }
+  
+      .mt-7\/10 {
+        margin-top: 70vh;
+      }
+  
+      .mt-8\/10 {
+        margin-top: 80vh;
+      }
+  
+      .mt-9\/10 {
+        margin-top: 90vh;
+      }
+  
+      .mt-10\/10 {
+        margin-top: 100vh;
+      }
+  
+      .lg-h2 {
+        font-family: 'Metric-Medium';
+        font-size: 40px;
+        font-style: bold;
+        font-weight: 800;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+  
+      .xsm-h2 {
+        font-family: 'Metric-Medium';
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 800;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+  
+      .sm-h2 {
+        font-family: 'Metric-Medium';
+        font-size: 30px;
+        font-style: bold;
+        font-weight: 800;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+  
+      .xxl-h2 {
+        font-family: 'Metric-Medium';
+        font-size: 38px;
+        font-style: bold;
+        font-weight: 800;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+  
+      .xl-h2 {
+        font-family: 'Metric-Medium';
+        font-size: 40px;
+        font-style: bold;
+        font-weight: 800;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  }

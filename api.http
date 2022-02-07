@@ -1,0 +1,11 @@
+POST url HTTP/1.1
+content-type: application/json
+
+{
+    "username": username.current.value,
+    "password": password.current.value,
+    "email": email.current.value,
+    "role": "Admin",
+    "id": 1,
+    "gender": "Male",
+})
